@@ -1,0 +1,254 @@
+@media (min-width: 1800px){     /*From large Desktop*/
+    .first.block
+    {
+        display: flex;
+        direction: row;
+    }
+    .second.block
+    {
+        display: flex;
+        direction: row;
+    }
+    .third.block
+    {
+        display: flex;
+        direction: row;
+        justify-content: center;
+    }
+    .third.block div
+    {
+        width: 25%;
+        
+    }
+    .fourth.block
+    {
+        display: flex;
+        direction: row;
+    }
+    .fourth.block>div:first-child
+    {
+        flex: 25 0 0;
+    }
+    .fourth.block>div:nth-child(2)
+    {
+        flex: 25 0 0;
+    }
+    .fourth.block>div:nth-child(3)
+    {
+        flex: 50 0 0;
+    } 
+    .fifth.block
+    {
+        display: flex;
+        direction: row;
+    }
+
+}
+
+@media (max-width: 1799px) and (min-width: 1200px){ /*From medium desktop to large desktop*/
+    
+    .first.block
+    {
+        display: flex;
+        direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .first.block>div
+    {
+        width: 49.8%;
+    }
+
+    .second.block
+    {
+        display: flex;
+        direction: row;
+    }
+    .third.block
+    {
+        display: flex;
+        direction: row;
+        flex-wrap: wrap;
+    }
+    .third.block>div:first-child
+    {
+        flex: 50 0 49%;
+    }
+    .third.block>div:nth-child(2)
+    {
+        flex: 50 0 49%;
+    }
+    .third.block>div:nth-child(3)
+    {
+        flex: 100 0 99%;
+    }
+    .fourth.block
+    {
+        display: flex;
+        direction: row;
+    }
+    .fourth.block>div:first-child
+    {
+        flex: 35 0 0;
+    }
+    .fourth.block>div:nth-child(2)
+    {
+        flex: 30 0 0;
+    }
+    .fourth.block>div:nth-child(3)
+    {
+        flex: 35 0 0;
+    } 
+    .fifth.block
+    {
+        display: flex;
+        direction: row;
+        flex-wrap: wrap;
+        justify-content: center;        
+    }
+    .fifth.block>div
+    {
+        width: 33%;
+    }
+    
+}
+
+@media (max-width: 1199px) and (min-width: 960px){  /*From Tablet Landscape to medium desktop*/
+
+    .first.block
+    {
+        display: flex;
+        direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .first.block>div
+    {
+        flex: 1 1 49%;
+    }
+    .second.block
+    {
+        display: flex;
+        direction: row;
+    }
+    .third.block
+    {
+        display: flex;
+        direction: row;
+    }  
+    .fourth.block
+    {
+        display: flex;
+        direction: row;
+    }
+    .fourth.block>div:first-child
+    {
+        flex: 35 0 0;
+    }
+    .fourth.block>div:nth-child(2)
+    {
+        flex: 30 0 0;
+    }
+    .fourth.block>div:nth-child(3)
+    {
+        flex: 35 0 0;
+    } 
+    .fifth.block
+    {
+        display: flex;
+        direction: row;
+        flex-wrap: wrap;
+        justify-content: center;        
+    }
+    .fifth.block>div
+    {
+        flex: 1 1 49%;
+    }
+    .fifth.block>div:last-child
+    {
+        flex: 1 1 99%;
+    }
+}
+
+@media (max-width: 959px) and (min-width: 768px){  /*From Tablet Portrait to Tablet Landscape*/
+    
+    .first.block
+    {
+        display: flex;
+        direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .first.block>div
+    {
+        width: 49.5%;
+    }
+    .second.block
+    {
+        display: flex;
+        direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .second.block>div
+    {
+        width: 49.5%;
+    }
+    .fourth.block
+    {
+        display: flex;
+        direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .fourth.block>div:nth-child(-n+2)
+    {
+        width: 49.7%;
+    }
+    .fourth.block>div:last-child
+    {
+        width: 100%;
+    }
+    .fifth.block
+    {
+        display: flex;
+        direction: row;
+        flex-wrap: wrap;
+        justify-content: center;        
+    }
+    .fifth.block>div
+    {
+        flex: 1 1 49%;
+    }
+    .fifth.block>div:last-child
+    {
+        flex: 1 1 99%;
+    }
+
+}
+
+@media (max-width: 767px){
+    
+    .first.block
+    {
+        display: flex;
+        direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .first.block>div
+    {
+        width: 49.5%;
+    }
+    .second.block
+    {
+        display: flex;
+        direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .second.block>div
+    {
+        width: 49.5%;
+    }
+}
